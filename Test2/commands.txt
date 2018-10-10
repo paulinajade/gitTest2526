@@ -1,1 +1,18 @@
+mkdir ~/Desktop/Test2
+nano ~/Desktop/Test2/commands.txt
+ cd Desktop
+git clone https://github.com/paulinajade/gitTest2526.git
+ mv Test2 gitTest2526
+cd gitTest2526
+git add .
+git commit -m "First commit"
+git push origin master
+nano repo.txt
+git add .
+git commit -m "repo text"
+git push origin master
+ nano index.html
+git add .
+git commit -m "html file"
+git push origin master
 
