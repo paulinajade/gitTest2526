@@ -16,3 +16,29 @@ git add .
 git commit -m "html file"
 git push origin master
 
+
+git tag ver1.00
+git push origin ver1.0
+git branch special_feature
+git checkout special_feature
+grep myhtml ~/Desktop/assets/myfile.bak
+nano index.html
+git add .
+git commit -m "Grep"
+git push origin master
+grep myjs ~/Desktop/assets/myfile.bak > ~/Desktop/gitTest2526/index.js
+git add . 
+git commit origin special_feature
+grep mycss ~/Desktop/assets/myfile.bak > ~/Desktop/gitTest2526/index.css
+git checkout special_feature
+git commit -m "test" git add .
+git commit -m "Tesst"
+git push origin master
+git merge special_feature
+git add .
+git commit -m "merge"
+git push origin master
+git tag ver1.01 
+git commit -m
+git push origin ver1.01Test 2 System admin
+
